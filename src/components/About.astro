@@ -1,60 +1,59 @@
 ---
-import { siteData } from '../data/siteData';
-import { aboutData } from '../data/aboutData';
-import Icon from './ui/Icon.astro';
+import { siteData } from "../data/siteData";
+import { aboutData } from "../data/aboutData";
 ---
 
 <section class="py-14 bg-neutral-surface border-b border-slate-200/80">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-      
       <div class="space-y-6">
-        <h2 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-neutral-title tracking-tight">
+        <h2
+          class="text-2xl sm:text-3xl md:text-4xl font-semibold text-neutral-title tracking-tight"
+        >
           {aboutData.title}
         </h2>
 
         <p class="text-neutral-text leading-relaxed text-sm sm:text-base">
-          En <span class="font-semibold text-secondary">{aboutData.foundingDate}</span>, un equipo de profesionales con amplia trayectoria en clínicas e instituciones educativas decidió unirse para crear un espacio propio.
+          {aboutData.paragraphs[0]}
         </p>
-
         <p class="text-neutral-text leading-relaxed text-sm sm:text-base">
           {aboutData.paragraphs[1]}
         </p>
-
-        <div class="pt-2 flex flex-wrap gap-4">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-neutral-bg text-neutral-title border border-slate-200/80">
-            <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
-            <span>{siteData.contact.modality}</span>
-          </div>
-        </div>
+        <p class="text-neutral-text leading-relaxed text-sm sm:text-base">
+          {aboutData.paragraphs[2]}
+        </p>
       </div>
 
-      <div class="bg-neutral-bg p-8 sm:p-10 rounded-3xl border border-slate-200/80 shadow-xs relative overflow-hidden">
-        <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-primary/10 rounded-full blur-2xl pointer-events-none"></div>
+      <div class="p-8 sm:p-10 rounded-3xl shadow-xs relative overflow-hidden">
+        <div
+          class="absolute -right-10 -bottom-10 w-40 h-40 bg-primary/10 rounded-full blur-2xl pointer-events-none"
+        >
+        </div>
 
         <h3 class="text-lg font-bold text-neutral-title mb-6">
           {aboutData.highlightsTitle}
         </h3>
 
         <div class="space-y-6">
-          {aboutData.highlights.map((item) => (
-            <div class="flex items-start gap-4">
-              <div class="p-3 bg-secondary-light text-secondary rounded-2xl shrink-0 font-bold text-xl min-w-[70px] text-center border border-secondary/10">
-                {item.number}
+          {
+            aboutData.highlights.map((item) => (
+              <div class="flex items-center gap-4">
+                <div class="w-20 h-16 bg-primary-light text-primary rounded-2xl shrink-0 font-extrabold text-lg flex items-center justify-center border border-primary/10 shadow-2xs">
+                  {item.number}
+                </div>
+                <div>
+                  <h4 class="font-bold text-neutral-title text-sm">
+                    {item.title}
+                  </h4>
+                  <p class="text-xs text-neutral-text mt-0.5 leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
               </div>
-              <div>
-                <h4 class="font-semibold text-neutral-title text-sm">
-                  {item.title}
-                </h4>
-                <p class="text-xs text-neutral-text mt-0.5 leading-relaxed">
-                  {item.description}
-                </p>
-              </div>
-            </div>
-          ))}
+            ))
+          }
         </div>
       </div>
-
     </div>
   </div>
 </section>

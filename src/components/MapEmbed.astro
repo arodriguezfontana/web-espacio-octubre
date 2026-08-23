@@ -2,7 +2,6 @@
 import { siteData } from '../data/siteData';
 import Icon from './ui/Icon.astro';
 
-const googleMapsExternalUrl = `https://www.google.com/maps/place/Espacio+Octubre/@-34.7067388,-58.2850108,810m/data=!3m2!1e3!4b1!4m6!3m5!1s0x95a333d2d8f1d3c7:0xe0e959e5997d7c3b!8m2!3d-34.7067388!4d-58.2850108!16s%2Fg%2F11zd8497gq?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D`;
 ---
 
 <div class="bg-neutral-surface rounded-3xl border border-slate-200/80 overflow-hidden shadow-xs flex flex-col h-full min-h-[420px]">
@@ -17,7 +16,7 @@ const googleMapsExternalUrl = `https://www.google.com/maps/place/Espacio+Octubre
     </div>
 
     <a 
-      href={googleMapsExternalUrl} 
+      href={siteData.location.googleMapsExternalUrl} 
       target="_blank" 
       rel="noopener noreferrer"
       class="inline-flex items-center gap-1.5 text-xs font-bold text-primary hover:text-secondary transition-colors group"

@@ -42,17 +42,5 @@ export const faqData: FaqItem[] = [
     category: "Primera Consulta",
     question: "¿Cómo es la primera sesión para un niño o adolescente?",
     answer: "Habitualmente la primera entrevista se realiza con los padres o tutores a cargo. En este primer encuentro se releva el motivo de consulta, la historia de desarrollo y se acuerda la estrategia de evaluación e intervención para las siguientes sesiones con el/la paciente."
-  },
-  {
-    id: "faq-6",
-    category: "Primera Consulta",
-    question: "¿Hacen evaluaciones psicopedagógicas y de lenguaje completas?",
-    answer: "Sí, realizamos evaluaciones integrales con entrega de informe escrito y devolución a la familia. Además, trabajamos en coordinación con las escuelas cuando es necesario implementar configuraciones de apoyo o PPI."
-  },
-  {
-    id: "faq-7",
-    category: "Turnos & Modalidad",
-    question: "¿Qué pasa si necesito cancelar o reprogramar mi turno?",
-    answer: "Te pedimos avisar con al menos 24 horas de anticipación para poder reorganizar la agenda y brindar ese espacio a otro paciente que lo necesite."
   }
 ];

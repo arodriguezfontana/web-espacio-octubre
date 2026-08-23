@@ -16,8 +16,9 @@ export const aboutData: AboutData = {
   title: "Nuestra Historia",
   foundingDate: "julio de 2026",
   paragraphs: [
-    "En <date>, un equipo de profesionales que trabajan desde la escucha, el cuidado y el acompañamiento, decidió unirse para crear un espacio propio.",
-    "Cada proceso es unico y tambien lo es la manera de acompañarlo."
+    "Espacio Octubre nace del deseo de cada una de nosotras de crear un lugar donde habite nuestro amor por la profesión.",
+    "Es un espacio pensado para que quienes nos elijan se sientan acogidas en su singularidad. Aquí combinamos el compromiso profesional con un ambiente cálido y seguro.",
+    "Nuestra propuesta es simple: poner al factor humano en el centro."
   ],
   highlightsTitle: " ",
   highlights: [
@@ -28,8 +29,13 @@ export const aboutData: AboutData = {
     },
     {
       number: "100%",
-      title: "Compromiso profesional",
-      description: "Formación continua, supervisión de casos y actualización constante."
+      title: "Ética y confidencialidad",
+      description: "Profesionales matriculados con constante supervisión clínica."
+    },
+    {
+      number: "24h",
+      title: "Respuesta y coordinación",
+      description: "Coordinación ágil de primeros turnos en modalidad presencial u online."
     }
   ]
 };

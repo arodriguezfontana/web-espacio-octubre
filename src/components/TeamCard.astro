@@ -8,8 +8,6 @@ interface Props {
 }
 
 const { member } = Astro.props;
-
-const customWhatsappUrl = `https://wa.me/${siteData.contact.phone.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(`Hola! Quisiera consultar por un turno con ${member.name}.`)}`;
 ---
 
 <div
@@ -17,7 +15,7 @@ const customWhatsappUrl = `https://wa.me/${siteData.contact.phone.replace(/[^0-9
 >
   <div>
     <div
-      class="relative w-full h-62 bg-slate-100 overflow-hidden shrink-0"
+      class="relative w-full h-70 bg-slate-100 overflow-hidden shrink-0"
     >
       <img
         src={member.image}
@@ -63,7 +61,7 @@ const customWhatsappUrl = `https://wa.me/${siteData.contact.phone.replace(/[^0-9
         member.topics && member.topics.length > 0 && (
           <div class="border-t border-slate-100 pt-2.5">
             <h3 class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1.5">
-              Áreas de intervención
+              Áreas Principales
             </h3>
             <ul class="space-y-1 text-xs text-neutral-text">
               {member.topics.map((topic) => (
@@ -102,10 +100,10 @@ const customWhatsappUrl = `https://wa.me/${siteData.contact.phone.replace(/[^0-9
     }
 
     <a
-      href={customWhatsappUrl}
+      href={member.whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      class="w-full py-2 px-3 rounded-xl text-xs font-bold text-primary bg-primary-light hover:bg-primary hover:text-white transition-all duration-200 flex items-center justify-center gap-1.5 group/btn"
+      class="w-full py-2 px-3 rounded-xl text-white text-xs font-bold bg-primary hover:bg-primary-hover transition-all duration-200 flex items-center justify-center gap-1.5 group/btn"
       aria-label={`Solicitar turno con ${member.name}`}
     >
       <span>Solicitar turno</span>

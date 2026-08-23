@@ -32,6 +32,7 @@ import { siteData } from '../data/siteData';
         <ContactCard 
           title="Ubicación"
           value={`${siteData.location.address}, ${siteData.location.city}`}
+          href={siteData.location.googleMapsExternalUrl}
           icon="location"
           borderColor="border-t-primary"
         />

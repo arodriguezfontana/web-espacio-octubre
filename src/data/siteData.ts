@@ -21,7 +21,8 @@ export const siteData = {
       latitude: "-34.7067388",
       longitude: "-58.2850108"
     },
-    embedMapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.641860085459!2d-58.285010799999995!3d-34.706738800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333d2d8f1d3c7%3A0xe0e959e5997d7c3b!2sEspacio%20Octubre!5e1!3m2!1ses-419!2sar!4v1786642493235!5m2!1ses-419!2sar"
+    embedMapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.641860085459!2d-58.285010799999995!3d-34.706738800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333d2d8f1d3c7%3A0xe0e959e5997d7c3b!2sEspacio%20Octubre!5e1!3m2!1ses-419!2sar!4v1786642493235!5m2!1ses-419!2sar",
+    googleMapsExternalUrl: `https://www.google.com/maps/place/Espacio+Octubre/@-34.7067388,-58.2850108,810m/data=!3m2!1e3!4b1!4m6!3m5!1s0x95a333d2d8f1d3c7:0xe0e959e5997d7c3b!8m2!3d-34.7067388!4d-58.2850108!16s%2Fg%2F11zd8497gq?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D`
   },
 
   contact: {
