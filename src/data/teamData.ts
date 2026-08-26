@@ -2,7 +2,6 @@ export interface TeamMember {
   id: string;
   name: string;
   role: string;
-  schedule: string;
   image: string;
   badge?: string;
   license?: string;
@@ -15,7 +14,6 @@ export const teamData: TeamMember[] = [
     id: "pro-1",
     name: "Marina Cruz",
     role: "Lic. en Psicología",
-    schedule: "Lun y Mié: 14 a 19 hs",
     image: "/assets/marina-cruz.jpeg",
     badge: "Presencial & Virtual",
     topics: [
@@ -29,7 +27,6 @@ export const teamData: TeamMember[] = [
     id: "pro-2",
     name: "Natalia Machetti",
     role: "Lic. en Psicología",
-    schedule: "Vie: 8 a 16 hs",
     image: "/assets/natalia-machetti.jpeg",
     badge: "Presencial & Virtual",
     topics: [
@@ -40,20 +37,19 @@ export const teamData: TeamMember[] = [
       "Orientacion vocacional",
       "Orientacion a familias",
     ],
-    whatsappUrl: "https://wa.me/5491156228779?text=Hola!%20Quisiera%20consultar%20por%20un%20turno%con%Natalia.",
+    whatsappUrl: "https://wa.me/5491156228779?text=Hola!%20Quisiera%20consultar%20por%20un%20turno%20con%20Natalia.",
 
   },
    {
     id: "pro-3",
     name: "Alejandra Granito",
     role: "Lic. en Psicología",
-    schedule: "Lun a Vie: 8 a 20 hs",
     image: "/assets/alejandra-granito.jpeg",
     badge: "Presencial & Virtual",
     topics: [
       "Niños, adolescentes y adultos",
       "Orientación a padres",
     ],
-    whatsappUrl: "https://wa.me/5491153256543?text=Hola!%20Quisiera%20consultar%20por%20un%20turno%con%Alejandra.",
+    whatsappUrl: "https://wa.me/5491153256543?text=Hola!%20Quisiera%20consultar%20por%20un%20turno%20con%20Alejandra.",
   },
 ];

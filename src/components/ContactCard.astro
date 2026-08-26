@@ -4,7 +4,6 @@ import Icon from './ui/Icon.astro';
 interface Props {
   title: string;
   value: string;
-  value2?: string;
   href?: string;
   icon: 'whatsapp' | 'location' | 'email' | 'clock' | 'instagram';
   borderColor?: string;
@@ -13,7 +12,6 @@ interface Props {
 const { 
   title, 
   value, 
-  value2,
   href, 
   icon,
   borderColor = 'border-t-primary'
@@ -42,12 +40,6 @@ const Tag = isLink ? 'a' : 'div';
   <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
     <span class={`text-xs ${isLink ? 'text-primary group-hover:underline' : 'text-slate-700'} truncate`}>
       {value}
-      {value2 && (
-        <>
-          <br />
-          {value2}
-        </>
-      )}
     </span>
     
     {isLink && (

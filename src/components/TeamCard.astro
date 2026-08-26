@@ -83,22 +83,6 @@ const { member } = Astro.props;
   </div>
 
   <div class="p-5 pt-0 space-y-2.5 mt-auto">
-    {
-      member.schedule && (
-        <div class="flex items-center gap-2 text-xs text-slate-600 bg-slate-50 p-2 rounded-xl border border-slate-100">
-          <Icon name="clock" class="w-3.5 h-3.5 text-accent shrink-0" />
-          <div class="min-w-0">
-            <span class="font-semibold text-neutral-title block text-[10px] leading-none mb-0.5">
-              Horarios
-            </span>
-            <span class="text-[11px] block truncate leading-tight">
-              {member.schedule}
-            </span>
-          </div>
-        </div>
-      )
-    }
-
     <a
       href={member.whatsappUrl}
       target="_blank"
