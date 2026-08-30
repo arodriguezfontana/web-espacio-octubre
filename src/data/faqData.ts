@@ -8,7 +8,7 @@ export const faqData: FaqItem[] = [
   {
     id: "faq-1",
     question: "¿Cómo solicito un turno?",
-    answer: "Podés coordinar un turno directamente haciendo clic en el botón de WhatsApp o en la seccion de Equipo. Nos indicás el motivo de consulta y te ofrecemos los días y horarios disponibles."
+    answer: "Podés coordinar un turno directamente haciendo clic en el botón de WhatsApp o en la sección de Equipo. Nos indicás el motivo de consulta y te ofrecemos los días y horarios disponibles."
   },
   {
     id: "faq-2",
@@ -18,6 +18,6 @@ export const faqData: FaqItem[] = [
   {
     id: "faq-3",
     question: "¿Trabajan con obras sociales?",
-    answer: "No trabajamos directamente con obras sociales. Emitimos la factura necesaria para la gestion del reintegro, segun la cobertura de cada obra social o prepaga."
+    answer: "No trabajamos directamente con obras sociales. Emitimos las facturas necesarias para la gestion del reintegro, segun la cobertura de cada obra social o prepaga."
   },
 ];

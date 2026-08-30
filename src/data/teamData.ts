@@ -18,8 +18,9 @@ export const teamData: TeamMember[] = [
     badge: "Presencial & Virtual",
     topics: [
       "Especialista en consumos problemáticos",
-      "Evaluación y atención individual",
-      "Terapia de pareja"
+      "Terapia individual y de pareja",
+      "Orientación a padres y familias",
+      "Psicotécnicos, aptos psicologicos y evaluación laboral",
     ],
     whatsappUrl: "https://wa.me/5491131982012?text=Hola!%20Quisiera%20consultar%20por%20un%20turno%20con%20Marina.",
   },
@@ -30,25 +31,24 @@ export const teamData: TeamMember[] = [
     image: "/assets/natalia-machetti.jpeg",
     badge: "Presencial & Virtual",
     topics: [
-      "TCC",
-      "Especialista en infanto juvenil y adultos",
-      "Estimuladora temprana",
-      "Psicotecnicos y aptos",
-      "Orientacion vocacional",
-      "Orientacion a familias",
+      "Terapia Cognitivo Conductual (TCC)",
+      "Especialista en atención infanto-juvenil y adultos",
+      "Estimulación temprana y orientación vocacional",
+      "Orientación a familias, psicotécnicos y aptos psicologicos",
     ],
     whatsappUrl: "https://wa.me/5491156228779?text=Hola!%20Quisiera%20consultar%20por%20un%20turno%20con%20Natalia.",
-
   },
-   {
+  {
     id: "pro-3",
     name: "Alejandra Granito",
     role: "Lic. en Psicología",
     image: "/assets/alejandra-granito.jpeg",
     badge: "Presencial & Virtual",
     topics: [
-      "Niños, adolescentes y adultos",
-      "Orientación a padres",
+      "Especialista en crisis de ansiedad, depresión y duelo",
+      "Atención a niños, adolescentes y adultos",
+      "Evaluación y abordaje clínico individual",
+      "Orientación a padres y acompañamiento",
     ],
     whatsappUrl: "https://wa.me/5491153256543?text=Hola!%20Quisiera%20consultar%20por%20un%20turno%20con%20Alejandra.",
   },
